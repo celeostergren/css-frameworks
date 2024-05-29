@@ -1,10 +1,71 @@
-body{
-  padding-top: 300px;
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background: #ececec;
+    padding: 0 20px 0 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.bg-img{
+    background-image: url("../images/walking.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+.row{
+  width:  900px;
+  height:550px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 0px;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text p{
+    color: #FF00FF;
+    font-size: 25px; 
+}
+b{
+    font-weight: 600;
+    font-size: 20px;
 }
 
-
-.form-signup{
-  margin: 0 auto;
-  max-width: 400px;
-
+.animate__heartBeat {
+    --animate-duration: 2s;
+  }
+  
+  
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.input-box{
+  width: 330px;
+  box-sizing: border-box;
+}
+img{
+    width: 35px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
